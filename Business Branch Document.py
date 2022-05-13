@@ -1,0 +1,30 @@
+# business branch document
+
+_id : "ObjectID"
+business_id : "PE"
+branch_no: "1"
+branch_address: {
+    branch_name: "Raju EV shop"
+    branch_number: "212"
+    street: "gulmohar road"
+    landmark: "H10"
+    village: "null"
+    town: "null"
+    city: "Mumbai"
+    state: "Maharashtra"
+    country: "India"
+    pin: "400076"
+    zone_code: "4"
+    subzone_code: "40"
+    district_code: "400"
+    postoffice_code: "076"
+    latitude: "19.1298002"  # Geocoding API
+    longitude: "72.9129421"
+}
+branch_poc: "Amit Bhardwaj"
+contact: "2345123423"
+email: "amit.bhardwaj@pharmeasy.in"
+branch_vehicles: "34"
+branch_batteries: "23"
+branch_chargers: "5"
+branch_registered_riders: "23"
