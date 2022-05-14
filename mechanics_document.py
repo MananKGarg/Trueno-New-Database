@@ -56,6 +56,7 @@
         tentative_repairs : ["repair_id1", "repair_id2"...]  # should we include tentative repairs. Think a little more about it
         accepted_repairs : ["repair_id3", "repair_id4"...]
         completed_repairs : ["repair_id5", "repair_id6"...]
+        pending_payments_repairs : ["repair_id7", "repair_id8"]
     }
 
     riders : ["rider_id1, rider_id2, rider_id3"...]                        # rider is customer.
