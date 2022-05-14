@@ -38,7 +38,7 @@
     stats : {
         overall_rating : "4.7"                 # logic for rating would be average of all repairs
         total_repairs : "72"                   # These stats are obtaind from repair ids
-        total_revenue : "4000"
+        total_revenue : "4000"                 # updated after payment is done
         total_customers : "55"
     }
 
