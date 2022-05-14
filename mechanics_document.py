@@ -8,6 +8,7 @@
     mechanic_last_name : "goyal"
     contact_number : "2222222222"
     email_id : "mechanic@gmail.com"
+    dob : "ISODate"
 
     address : {                           # embedded beacause of one to one mapping in address and shop owner
         shop_name : "Raju EV shop"        # what if a mechanic is registering away from his shop?
