@@ -2,12 +2,15 @@
 
 {
     repair_id : "<objectID>"
+    business_branch_id : "PE1"
     rider_id : "rider_id"
     mechanic_id : "mechanic_id"          # after the mechanic is assigned to the rider
     vehicle_id : "vehicle_id"
     battery_id : "battery_id"            # should we include battery id here or not as it is already connected to vehicle
     iot_id : ""
     charger_id : "charger_id"
+    
+    operation_manager_raised : "0"       # Boolean value that signifies if the request is raised from app or dashboard
 
     repair_raise_time : "ISODatetime"    # noted when rider raises the issue
     repair_resolve_time : "ISODatetime"  # noted when mechanic completes the request
