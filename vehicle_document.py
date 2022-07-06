@@ -8,9 +8,10 @@
     rider_id : "rider_id"
     battery_id : "battery_id"       # How to handle battery input while vehicle assigning for the first time
     iot_id : "iot_id"               # confirm. According to me, there is one imei for one iot
-    vin : "chassis_number"
-    vin_warranty_end_dateTime : "ISODateTime"
     service_partner_id : ""
+    
+    chassis_number : "chassis_number"
+    chassis_warranty_end_dateTime : "ISODateTime"
     
     motor_no : ""
     motor_warranty_end : "ISODateTime"
@@ -45,7 +46,21 @@
     repairs : ["repair_id1", "repair_id2"...]
 
     insurance : {
-        # See which fields have to be included
+        insurance_status : "yes/no"
+        insurance_first_party_start_date : ""
+        insurance_third_party_end_date : ""
+        insurance_first_party_end_date : ""
+        insurance_third_party_end_date : ""
+        insurance_policy_number : ""
+        insurance_sum_insured : ""
+        insurance_premium : ""
+        
+    }
+    
+    insurance_claim : {
+    
+    
+    
     }
 
     battery_swaps : {
@@ -56,6 +71,13 @@
         swap_time : ""            # swap time comes from mechanics app when battery is swapped
         swap_station_id : "23"
 
+        battery_into_vehicle: "id"          # battery in logged by mechanic through app
+        battery_into_vehicle_soc : "90"
+        battery_out_of_vehicle : "id"        # battery out logged by mechanic
+        battery_out_of_vehicle_soc : "20"
+        swap_time : ""            # swap time comes from mechanics app when battery is swapped
+        swap_station_id : "23"
+        
         battery_in: "id"  # battery in logged by mechanic through app
         battery_out: "id"  # battery out logged by mechanic
         swap_time: ""  # swap time comes from mechanics app when battery is swapped
