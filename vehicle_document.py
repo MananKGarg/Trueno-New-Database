@@ -15,6 +15,9 @@
     motor_no : ""
     motor_warranty_end : "ISODateTime"
     
+    converter_number : ""
+    converter_warranty_end : "ISODateTime"     # Change to epoch time if required
+    
     controller_no : ""
     controller_warranty_end : "ISODatetime"
 
