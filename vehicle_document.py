@@ -9,9 +9,14 @@
     battery_id : "battery_id"       # How to handle battery input while vehicle assigning for the first time
     iot_id : "iot_id"               # confirm. According to me, there is one imei for one iot
     vin : "chassis_number"
+    vin_warranty_end_dateTime : "ISODateTime"
     service_partner_id : ""
+    
     motor_no : ""
+    motor_warranty_end : "ISODateTime"
+    
     controller_no : ""
+    controller_warranty_end : "ISODatetime"
 
     vehicle_brand : "suzuki"
     vehicle_model : "stype"
