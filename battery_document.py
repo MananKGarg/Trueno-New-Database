@@ -11,6 +11,7 @@
     series_parallel : ""    #ask exact term to shubham
     battery_type : "lithium phosphate"
     battery_ : "emuron"
+    battery_warranty_end : ""
 
  # Smart batteries. What data would be provided by smart batteries. Discuss at length with Shubham
     #best performance of battery
