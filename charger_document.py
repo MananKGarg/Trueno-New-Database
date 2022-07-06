@@ -3,10 +3,10 @@
 {
     _id : "<ObjectID"
     charger_tag : ""  #tag created for charger by trueno
+    vehicle_id : ""
     swap_station_id : ""
     charger_brand : ""
-    charger
-
+    charger_warranty_end : "ISODateTime"
 }
 
 
